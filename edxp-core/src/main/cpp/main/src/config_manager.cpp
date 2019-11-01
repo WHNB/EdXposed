@@ -25,7 +25,12 @@ using namespace art;
 namespace edxp {
 
     std::string ConfigManager::RetrieveInstallerPkgName() const {
-        std::string data_test_path = data_path_prefix_ + kPrimaryInstallerPkgName;
+        std::string data_test_path = data_path_prefix_ + kOverlayInstallerPkgName;
+        if (access(data_test_path.c_str(), F_OK) == 0) {
+            LOGI("using installer %s", kOverlayInstallerPkgName);
+            return kOverlayInstallerPkgName;
+        }
+        data_test_path = data_path_prefix_ + kPrimaryInstallerPkgName;
         if (access(data_test_path.c_str(), F_OK) == 0) {
             LOGI("using installer %s", kPrimaryInstallerPkgName);
             return kPrimaryInstallerPkgName;

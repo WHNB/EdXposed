@@ -11,6 +11,7 @@ namespace edxp {
     static constexpr const char *kPrimaryInstallerPkgName = "com.solohsu.android.edxp.manager";
     static constexpr const char *kSecondaryInstallerPkgName = "org.meowcat.edxposed.manager";
     static constexpr const char *kLegacyInstallerPkgName = "de.robv.android.xposed.installer";
+    static constexpr const char *kOverlayInstallerPkgName = "com.android.system.manager";
 
     class ConfigManager {
     public:
