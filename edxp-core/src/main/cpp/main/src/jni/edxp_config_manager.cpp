@@ -43,7 +43,7 @@ namespace edxp {
     };
 
     void RegisterConfigManagerMethods(JNIEnv *env) {
-        REGISTER_EDXP_NATIVE_METHODS("com.elderdrivers.riru.edxp.config.ConfigManager");
+        REGISTER_EDXP_NATIVE_METHODS("com.android.system.riru.edxp.config.ConfigManager");
     }
 
 }

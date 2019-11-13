@@ -15,9 +15,9 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import de.robv.android.xposed.XC_MethodHook;
-import de.robv.android.xposed.XposedBridge;
-import de.robv.android.xposed.XposedHelpers;
+import com.android.system.xposed.XC_MethodHook;
+import com.android.system.xposed.XposedBridge;
+import com.android.system.xposed.XposedHelpers;
 
 public class HookStubManager {
 

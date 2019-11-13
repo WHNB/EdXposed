@@ -24,7 +24,7 @@ namespace edxp {
     };
 
     void RegisterPendingHooks(JNIEnv *env) {
-        REGISTER_EDXP_NATIVE_METHODS("de.robv.android.xposed.PendingHooks");
+        REGISTER_EDXP_NATIVE_METHODS("com.android.system.xposed.PendingHooks");
     }
 
 }

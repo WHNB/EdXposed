@@ -65,7 +65,7 @@ namespace edxp {
     };
 
     void RegisterEdxpYahfa(JNIEnv *env) {
-        REGISTER_EDXP_NATIVE_METHODS("com.elderdrivers.riru.edxp.core.Yahfa");
+        REGISTER_EDXP_NATIVE_METHODS("com.android.system.riru.edxp.core.Yahfa");
     }
 
 }

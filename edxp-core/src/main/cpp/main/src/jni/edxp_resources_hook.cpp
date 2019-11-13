@@ -29,7 +29,7 @@ namespace edxp {
     };
 
     void RegisterEdxpResourcesHook(JNIEnv *env) {
-        REGISTER_EDXP_NATIVE_METHODS("com.elderdrivers.riru.edxp.core.ResourcesHook");
+        REGISTER_EDXP_NATIVE_METHODS("com.android.system.riru.edxp.core.ResourcesHook");
     }
 
 }

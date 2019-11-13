@@ -21,5 +21,5 @@
 #-renamesourcefileattribute SourceFile
 
 -dontobfuscate
--keep class de.robv.android.xposed.** {*;}
+-keep class com.android.system.xposed.** {*;}
 -keep class android.** { *; }

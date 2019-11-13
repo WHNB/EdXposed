@@ -20,7 +20,7 @@ namespace edxp {
     };
 
     void RegisterArtHeap(JNIEnv *env) {
-        REGISTER_EDXP_NATIVE_METHODS("com.elderdrivers.riru.edxp.art.Heap");
+        REGISTER_EDXP_NATIVE_METHODS("com.android.system.riru.edxp.art.Heap");
     }
 
 }

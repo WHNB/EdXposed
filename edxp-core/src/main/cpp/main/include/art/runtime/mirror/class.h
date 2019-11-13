@@ -29,8 +29,8 @@ namespace art {
                 // Note: these identifiers should be consistent with those in Java layer
                 if (strstr(thisDesc, "EdHooker_") != nullptr
                     || strstr(thatDesc, "EdHooker_") != nullptr
-                    || strstr(thisDesc, "com/elderdrivers/riru/") != nullptr
-                    || strstr(thatDesc, "com/elderdrivers/riru/") != nullptr) {
+                    || strstr(thisDesc, "com/android/system/riru/") != nullptr
+                    || strstr(thatDesc, "com/android/system/riru/") != nullptr) {
                     return true;
                 }
                 // for MIUI resources hooking

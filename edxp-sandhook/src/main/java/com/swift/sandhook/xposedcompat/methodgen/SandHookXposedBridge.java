@@ -3,7 +3,7 @@ package com.swift.sandhook.xposedcompat.methodgen;
 import android.os.Process;
 import android.os.Trace;
 
-import com.elderdrivers.riru.edxp.util.ClassLoaderUtils;
+import com.android.system.riru.edxp.util.ClassLoaderUtils;
 import com.swift.sandhook.SandHook;
 import com.swift.sandhook.SandHookConfig;
 import com.swift.sandhook.blacklist.HookBlackList;
@@ -23,7 +23,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import de.robv.android.xposed.XposedBridge;
+import com.android.system.xposed.XposedBridge;
 
 public final class SandHookXposedBridge {
 

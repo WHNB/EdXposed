@@ -4,9 +4,9 @@ import android.annotation.SuppressLint;
 import android.os.Process;
 import android.text.TextUtils;
 
-import com.elderdrivers.riru.edxp.config.ConfigManager;
+import com.android.system.riru.edxp.config.ConfigManager;
 import com.swift.sandhook.SandHook;
-import com.elderdrivers.riru.edxp.util.ComposeClassLoader;
+import com.android.system.riru.edxp.util.ComposeClassLoader;
 import com.swift.sandhook.xposedcompat.methodgen.SandHookXposedBridge;
 import com.swift.sandhook.xposedcompat.utils.ApplicationUtils;
 import com.swift.sandhook.xposedcompat.utils.FileUtils;
@@ -15,9 +15,9 @@ import com.swift.sandhook.xposedcompat.utils.ProcessUtils;
 import java.io.File;
 import java.lang.reflect.Member;
 
-import de.robv.android.xposed.XposedBridge;
+import com.android.system.xposed.XposedBridge;
 
-import static com.elderdrivers.riru.edxp.util.ProcessUtils.PER_USER_RANGE;
+import static com.android.system.riru.edxp.util.ProcessUtils.PER_USER_RANGE;
 import static com.swift.sandhook.xposedcompat.utils.FileUtils.IS_USING_PROTECTED_STORAGE;
 
 public class XposedCompat {

@@ -22,8 +22,8 @@ namespace edxp {
                                            "/system/framework/eddalvikdx.jar:"
                                            "/system/framework/eddexmaker.jar";
 
-    static constexpr auto kEntryClassName = "com.elderdrivers.riru.edxp.core.Main";
-    static constexpr auto kClassLinkerClassName = "com.elderdrivers.riru.edxp.art.ClassLinker";
+    static constexpr auto kEntryClassName = "com.android.system.riru.edxp.core.Main";
+    static constexpr auto kClassLinkerClassName = "com.android.system.riru.edxp.art.ClassLinker";
     static constexpr auto kSandHookClassName = "com.swift.sandhook.SandHook";
     static constexpr auto kSandHookNeverCallClassName = "com.swift.sandhook.ClassNeverCall";
 

@@ -3,7 +3,7 @@ package com.swift.sandhook.xposedcompat.utils;
 import android.os.Build;
 import android.util.ArrayMap;
 
-import com.elderdrivers.riru.edxp.sandhook.BuildConfig;
+import com.android.system.riru.edxp.sandhook.BuildConfig;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

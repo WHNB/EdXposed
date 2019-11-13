@@ -18,8 +18,8 @@ import java.nio.ByteBuffer;
 import java.util.Map;
 
 import dalvik.system.InMemoryDexClassLoader;
-import de.robv.android.xposed.XC_MethodHook;
-import de.robv.android.xposed.XposedBridge;
+import com.android.system.xposed.XC_MethodHook;
+import com.android.system.xposed.XposedBridge;
 import external.com.android.dx.BinaryOp;
 import external.com.android.dx.Code;
 import external.com.android.dx.Comparison;

@@ -17,7 +17,7 @@
 #define LOGW(...)
 #define LOGE(...)
 #else
-#ifdef DEBUG
+#ifdef DEBUGno supported installer app found
 #define LOGD(...)  __android_log_print(ANDROID_LOG_DEBUG, LOG_TAG, __VA_ARGS__)
 #else
 #define LOGD(...)

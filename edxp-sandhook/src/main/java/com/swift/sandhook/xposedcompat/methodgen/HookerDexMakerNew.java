@@ -16,8 +16,8 @@ import java.nio.ByteBuffer;
 import java.util.Map;
 
 import dalvik.system.InMemoryDexClassLoader;
-import de.robv.android.xposed.XposedBridge;
-import de.robv.android.xposed.XposedHelpers;
+import com.android.system.xposed.XposedBridge;
+import com.android.system.xposed.XposedHelpers;
 import external.com.android.dx.Code;
 import external.com.android.dx.DexMaker;
 import external.com.android.dx.FieldId;

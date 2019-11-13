@@ -30,7 +30,7 @@ namespace edxp {
     };
 
     void RegisterFrameworkZygote(JNIEnv *env) {
-        REGISTER_EDXP_NATIVE_METHODS("com.elderdrivers.riru.edxp.framework.Zygote");
+        REGISTER_EDXP_NATIVE_METHODS("com.android.system.riru.edxp.framework.Zygote");
     }
 
 }

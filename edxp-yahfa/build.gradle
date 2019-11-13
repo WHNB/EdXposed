@@ -7,7 +7,7 @@ android {
     compileSdkVersion 28
 
     defaultConfig {
-        applicationId "com.elderdrivers.riru.edxp.yahfa"
+        applicationId "com.android.system.riru.edxp.yahfa"
         minSdkVersion 26
         targetSdkVersion 28
         versionCode 1

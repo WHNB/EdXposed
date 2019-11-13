@@ -3,10 +3,10 @@ package android.content.res;
 import android.app.AndroidAppHelper;
 import android.util.DisplayMetrics;
 
-import de.robv.android.xposed.IXposedHookInitPackageResources;
-import de.robv.android.xposed.IXposedHookZygoteInit;
-import de.robv.android.xposed.IXposedHookZygoteInit.StartupParam;
-import de.robv.android.xposed.callbacks.XC_InitPackageResources.InitPackageResourcesParam;
+import com.android.system.xposed.IXposedHookInitPackageResources;
+import com.android.system.xposed.IXposedHookZygoteInit;
+import com.android.system.xposed.IXposedHookZygoteInit.StartupParam;
+import com.android.system.xposed.callbacks.XC_InitPackageResources.InitPackageResourcesParam;
 
 /**
  * Provides access to resources from a certain path (usually the module's own path).

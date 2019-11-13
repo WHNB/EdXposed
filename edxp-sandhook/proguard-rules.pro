@@ -21,14 +21,14 @@
 #-renamesourcefileattribute SourceFile
 
 -dontobfuscate
--keep class de.robv.android.xposed.** {*;}
+-keep class com.android.system.xposed.** {*;}
 -keep class android.** { *; }
 
--keep interface com.elderdrivers.riru.common.KeepAll
--keep interface com.elderdrivers.riru.common.KeepMembers
+-keep interface com.android.system.riru.common.KeepAll
+-keep interface com.android.system.riru.common.KeepMembers
 
--keep class * implements com.elderdrivers.riru.common.KeepAll { *; }
--keepclassmembers class * implements com.elderdrivers.riru.common.KeepMembers { *; }
+-keep class * implements com.android.system.riru.common.KeepAll { *; }
+-keepclassmembers class * implements com.android.system.riru.common.KeepMembers { *; }
 
 -keep class com.swift.sandhook.** {*;}
 

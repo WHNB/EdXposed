@@ -6,7 +6,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Member;
 import java.lang.reflect.Method;
 
-import de.robv.android.xposed.XposedBridge;
+import com.android.system.xposed.XposedBridge;
 
 /**
  * @author Lody
